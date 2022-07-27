@@ -32,7 +32,7 @@ def friend_exists(name):
 	isfriend = False
 	if name in facebook_friends:
 		isfriend=True
-	return render_template("friend_exists.html", isfriend = isfriend)
+	return render_template("friend_exists.html",isfriend=isfriend)
 
 
 
